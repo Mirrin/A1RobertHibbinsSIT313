@@ -1,0 +1,5 @@
+﻿All material used within this assignment was my own or i  was given permission by owner
+Logo for ShopTrack i created within paint
+This idea is based on my Android assignment i submitted last year.
+Indian (pic.jpg)was given to me by a friend Cliton foster 14/7/2016 he was the original artist for this cliton.Foster@gmail.com.au
+I used xamarin forums for guides on installing new packages within my assignment.
