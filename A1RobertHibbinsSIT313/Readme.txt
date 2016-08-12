@@ -20,3 +20,6 @@ the NUget SQlite data base packages listed below,
 
 The developing process was fine but User interface changed from the purposed out look i thought of in week 1 design video and i wasnt successfully able to implement every function with the lack of the list view function
 users are still able to use the application but only via the Toast notifications that pop up.
+
+
+User can insert name within the main application page and press Welcome this will display name within a new activity, user presses the generic android back button down the bottom to return to home screen, user can then press shopping list this enables user to create and store list items within a data base, each function requires the user to either leave the function page to return back to the main menu setting of activity 2 (shoppinglist)

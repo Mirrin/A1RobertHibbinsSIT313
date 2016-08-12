@@ -23,12 +23,12 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView1" />
     <Button
-        android:text="ACTivity 1"
+        android:text="Welcome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/act1Btn" />
     <Button
-        android:text="ACTIVITY 2"
+        android:text="Shopping List"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/act2Btn" />
