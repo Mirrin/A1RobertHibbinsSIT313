@@ -21,22 +21,22 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnInsert" />
     <Button
-        android:text="Get Data"
+        android:text="Get List"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnGetData" />
     <Button
-        android:text="Get data by I.D"
+        android:text="Get List item  by I.D"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnGetID" />
     <Button
-        android:text="Update Data"
+        android:text="Update List"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnUpdate" />
     <Button
-        android:text="Delete"
+        android:text="Delete List Item by I.D"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnDelete" />

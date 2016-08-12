@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView
-        android:text="Add new Task"
+        android:text="Add new List item"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView" />
     <TextView
-        android:text="Enter New Task"
+        android:text="Enter New List Item:"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/txtTask" />
     <Button
-        android:text="Add New Task"
+        android:text="Add New List Item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnTask" />

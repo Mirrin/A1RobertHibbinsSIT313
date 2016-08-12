@@ -22,4 +22,6 @@ The developing process was fine but User interface changed from the purposed out
 users are still able to use the application but only via the Toast notifications that pop up.
 
 
-User can insert name within the main application page and press Welcome this will display name within a new activity, user presses the generic android back button down the bottom to return to home screen, user can then press shopping list this enables user to create and store list items within a data base, each function requires the user to either leave the function page to return back to the main menu setting of activity 2 (shoppinglist)
+User can insert name within the main application page and press Welcome this will display name within a new activity, user presses the generic android back button down the bottom to return to home screen, user can then press shopping 
+list this enables user to create and store list items within a data base, each function requires the user to either leave the function page to return back to the main menu setting of activity 2 (shoppinglist) 
+Please refer to video on how application works. User must create DataBase and table for each emulated use (as i found errors as sometimes it doesnt trangress over from emulated versions.)
