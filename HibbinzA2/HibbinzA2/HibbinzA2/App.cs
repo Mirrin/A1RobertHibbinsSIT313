@@ -11,8 +11,9 @@ namespace HibbinzA2
     {
         public App()
         {
+            // this is where i declare where the app will start - what page will be shown. i declare to show my mainpage.
             // The root page of your application
-            MainPage = new ContentPage
+            MainPage = new MainPage
             {
                 Content = new StackLayout
                 {
