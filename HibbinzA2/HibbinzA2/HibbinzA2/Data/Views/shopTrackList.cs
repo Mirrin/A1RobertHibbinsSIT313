@@ -14,23 +14,23 @@ namespace HibbinzA2.Data.Views
 
         public shopTrackList()
         {
-            Title = "Todo";
+            Title = "List";
 
             NavigationPage.SetHasNavigationBar(this, true);
 
             listView = new ListView
             {
                 RowHeight = 40,
-                ItemTemplate = new DataTemplate(typeof(TodoItemCell))
+                ItemTemplate = new DataTemplate(typeof(shopTrackCell))
             };
 
 
 
             listView.ItemSelected += (sender, e) => {
-                var todoItem = (TodoItem)e.SelectedItem;
-                var todoPage = new TodoItemPage();
+                var todoItem = (ShopTrack)e.SelectedItem;
+                var todoPage = new shopTrackPage();
                 todoPage.BindingContext = todoItem;
-                Navigation.PushAsync(todoPage);
+                Navigation.PushAsync(shopTrackPage);
             };
 
             var layout = new StackLayout();
@@ -38,7 +38,7 @@ namespace HibbinzA2.Data.Views
             { // WinPhone doesn't have the title showing
                 layout.Children.Add(new Label
                 {
-                    Text = "Todo",
+                    Text = "ShopTrack",
                     FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
                     FontAttributes = FontAttributes.Bold
                 });
@@ -52,29 +52,29 @@ namespace HibbinzA2.Data.Views
             if (Device.OS == TargetPlatform.iOS)
             {
                 tbi = new ToolbarItem("+", null, () => {
-                    var todoItem = new TodoItem();
-                    var todoPage = new TodoItemPage();
+                    var todoItem = new ShopTrack();
+                    var todoPage = new shopTrackPage();
                     todoPage.BindingContext = todoItem;
-                    Navigation.PushAsync(todoPage);
+                    Navigation.PushAsync(shopTrackPage);
                 }, 0, 0);
             }
             if (Device.OS == TargetPlatform.Android)
             { // BUG: Android doesn't support the icon being null
                 tbi = new ToolbarItem("+", "plus", () => {
-                    var todoItem = new TodoItem();
-                    var todoPage = new TodoItemPage();
+                    var todoItem = new ShopTrack();
+                    var todoPage = new shopTrackPage();
                     todoPage.BindingContext = todoItem;
-                    Navigation.PushAsync(todoPage);
+                    Navigation.PushAsync(shopTrackPage);
                 }, 0, 0);
             }
 
             if (Device.OS == TargetPlatform.WinPhone)
             {
                 tbi = new ToolbarItem("Add", "add.png", () => {
-                    var todoItem = new TodoItem();
-                    var todoPage = new TodoItemPage();
+                    var todoItem = new ShopTrack();
+                    var todoPage = new shopTrackPage();
                     todoPage.BindingContext = todoItem;
-                    Navigation.PushAsync(todoPage);
+                    Navigation.PushAsync(shopTrackPage);
                 }, 0, 0);
             }
 
@@ -83,9 +83,9 @@ namespace HibbinzA2.Data.Views
             if (Device.OS == TargetPlatform.iOS)
             {
                 var tbi2 = new ToolbarItem("?", null, () => {
-                    var todos = App.Database.GetItemsNotDone();
+                    var Shoptrackz = App.Database.GetItemsNotDone();
                     var tospeak = "";
-                    foreach (var t in todos)
+                    foreach (var t in Shoptrackz)
                         tospeak += t.Name + " ";
                     if (tospeak == "")
                         tospeak = "there are no tasks to do";
