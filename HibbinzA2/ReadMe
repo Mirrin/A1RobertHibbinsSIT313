@@ -9,3 +9,11 @@ MVVM
 SQL data Base 
 Simplistic design 
 please refer to videos on templates and mock layouts and see source code within these files for attempts made.
+
+the NUget SQlite data base packages listed below,
+
+		  <package id="sqlite-net" version="1.0.8" targetFramework="monoandroid60" />
+		  <package id="sqlite-net-pcl" version="1.1.2" targetFramework="monoandroid60" />
+		  <package id="SQLitePCL.bundle_green" version="0.9.2" targetFramework="monoandroid60" />
+		  <package id="SQLitePCL.plugin.sqlite3.android" version="0.9.3" targetFramework="monoandroid60" />
+		  <package id="SQLitePCL.raw" version="0.9.2" targetFramework="monoandroid60" />
