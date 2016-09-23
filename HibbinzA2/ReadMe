@@ -1,0 +1,11 @@
+The intended purpose of this Application is for project 2 in Sit313
+This application was never fully compiled
+
+I wanted to make an application to Store list items which could edited on the fly with ease of access prompts and buttons 
+it would allow the user to add an item and list a discription in a scroll list view, the secondary function i wanted to implement was the calculator. I never achieved a stable working version that would build due to my software
+not functioning properly despite many attempts and trouble shooting this,
+
+MVVM 
+SQL data Base 
+Simplistic design 
+please refer to videos on templates and mock layouts and see source code within these files for attempts made.
